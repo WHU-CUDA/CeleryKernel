@@ -1,0 +1,85 @@
+ 
+ -------------- kernel@wangx-pc v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.11.0-27-generic-x86_64-with-debian-bullseye-sid 2021-08-31 11:05:13
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         kernel:0x7f57640dd898
+- ** ---------- .> transport:   redis://120.78.156.16:6789/0
+- ** ---------- .> results:     redis://120.78.156.16:6789/1
+- *** --- * --- .> concurrency: 8 (eventlet)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> kernel           exchange=kernel(direct) key=kernel
+                
+
+[tasks]
+  . kernel.run.run
+
+[2021-08-31 11:05:13,841: INFO/MainProcess] Connected to redis://120.78.156.16:6789/0
+[2021-08-31 11:05:14,132: INFO/MainProcess] mingle: searching for neighbors
+[2021-08-31 11:05:15,897: INFO/MainProcess] mingle: all alone
+[2021-08-31 11:05:16,145: INFO/MainProcess] pidbox: Connected to redis://120.78.156.16:6789/0.
+[2021-08-31 11:05:16,310: INFO/MainProcess] kernel@wangx-pc ready.
+[2021-08-31 11:05:17,757: INFO/MainProcess] Events of group {task} enabled by remote.
+Traceback (most recent call last):
+  File "./kernel/tasks.py", line 8, in <module>
+    from kernel import app
+ModuleNotFoundError: No module named 'kernel'
+ 
+ -------------- kernel@wangx-pc v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.11.0-27-generic-x86_64-with-debian-bullseye-sid 2021-08-31 11:09:08
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         kernel:0x7f06c07de518
+- ** ---------- .> transport:   redis://120.78.156.16:6789/0
+- ** ---------- .> results:     redis://120.78.156.16:6789/1
+- *** --- * --- .> concurrency: 8 (eventlet)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> kernel           exchange=kernel(direct) key=kernel
+                
+
+[tasks]
+  . kernel.run.run
+  . kernel.tasks.all
+
+[2021-08-31 11:09:08,252: INFO/MainProcess] Connected to redis://120.78.156.16:6789/0
+[2021-08-31 11:09:08,498: INFO/MainProcess] mingle: searching for neighbors
+[2021-08-31 11:09:10,187: INFO/MainProcess] mingle: all alone
+[2021-08-31 11:09:10,404: INFO/MainProcess] pidbox: Connected to redis://120.78.156.16:6789/0.
+[2021-08-31 11:09:10,591: INFO/MainProcess] kernel@wangx-pc ready.
+[2021-08-31 11:09:57,589: INFO/MainProcess] Events of group {task} enabled by remote.
+Traceback (most recent call last):
+  File "./kernel/tasks.py", line 8, in <module>
+    from kernel import app
+ModuleNotFoundError: No module named 'kernel'
+ 
+ -------------- kernel@wangx-pc v5.1.2 (sun-harmonics)
+--- ***** ----- 
+-- ******* ---- Linux-5.11.0-27-generic-x86_64-with-debian-bullseye-sid 2021-08-31 11:17:36
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         kernel:0x7f6b58f1f048
+- ** ---------- .> transport:   redis://120.78.156.16:6789/0
+- ** ---------- .> results:     redis://120.78.156.16:6789/1
+- *** --- * --- .> concurrency: 8 (eventlet)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> kernel           exchange=kernel(direct) key=kernel
+                
+
+[tasks]
+  . kernel.run.run
+  . kernel.tasks.all
+
+[2021-08-31 11:17:36,716: INFO/MainProcess] Connected to redis://120.78.156.16:6789/0
+[2021-08-31 11:17:36,869: INFO/MainProcess] mingle: searching for neighbors
+[2021-08-31 11:17:38,639: INFO/MainProcess] mingle: all alone
+[2021-08-31 11:17:38,890: INFO/MainProcess] pidbox: Connected to redis://120.78.156.16:6789/0.
+[2021-08-31 11:17:39,160: INFO/MainProcess] Events of group {task} enabled by remote.
+[2021-08-31 11:17:39,171: INFO/MainProcess] kernel@wangx-pc ready.
