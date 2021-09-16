@@ -13,9 +13,9 @@ if __name__ == '__main__':
         'factor': 0.5,
         'op': 1
     }
-
-    for i in range(0, 10):
-        res = run.run.apply_async(args=[args], queue='kernel')
-        print(res.get)
+    print(args)
+    # for i in range(0, 10):
+    #     res = run.run.apply_async(args=[args], queue='kernel')
+    #     print(res.get)
 
 
